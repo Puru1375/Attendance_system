@@ -1,0 +1,32 @@
+body {
+    font-family: sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#attendance-list {
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.attendance-item {
+    padding: 5px 0;
+    border-bottom: 1px dotted #eee;
+}
+
+.attendance-item:last-child {
+    border-bottom: none;
+}
+
+.student-name {
+    font-weight: bold;
+}
+
+.attendance-time {
+    font-size: 0.9em;
+    color: #777;
+}
